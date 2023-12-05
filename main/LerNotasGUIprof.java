@@ -13,7 +13,7 @@ public class LerNotasGUIprof {
 			resp = JOptionPane.showInputDialog(null, "Informe a nota 2");
 			if (!resp.isEmpty() ) {
 				n2 = Float.parseFloat(resp);
-				Float media = (n1+n2);
+				Float media = (n1+n2)/2;
 				if (media >= 7) {
 					JOptionPane.showMessageDialog(null, "Aprovado! Parabéns!", "Resultado", JOptionPane.INFORMATION_MESSAGE);
 				}
